@@ -9,7 +9,7 @@ To use git:
 
 Clone the repository down using Git Clone https://github.com/DavidCamre/OpheliaHotel.git 
 
-If you have insufficient permissions mail me at davidcamre@gmail.com to be addedto admin list.
+If you have insufficient permissions mail me at davidcamre@gmail.com to be added to admin list.
 
 To pull the newest branch down use Git pull origin master
 To add a file use Git add .
