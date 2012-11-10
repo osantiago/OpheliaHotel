@@ -6,8 +6,9 @@ public class Connector {
 		// Initialize database?
 	}
 
-	public void getCustomers() {
 
-	}
-
+	
+	
+	
+	
 }
