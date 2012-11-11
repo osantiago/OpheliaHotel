@@ -2,10 +2,6 @@
 -- version 3.5.1
 -- http://www.phpmyadmin.net
 --
--- Host: mysql4.gigahost.dk
--- Generation Time: Nov 03, 2012 at 09:46 PM
--- Server version: 5.1.63-0+squeeze1-log
--- PHP Version: 5.3.3-7+squeeze14
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
