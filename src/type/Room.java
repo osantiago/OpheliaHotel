@@ -16,6 +16,15 @@ public class Room {
 	String room_location;
 	String room_notes;
 	int max_occupants;
+	
+	public Room(int room_id, String room_location, String room_notes, 
+			int max_occupants) {
+		this.room_id = room_id;
+		this.room_location = room_location;
+		this.room_notes = room_notes;
+		this.max_occupants = max_occupants;
+	}
+	
 	public int getRoom_id() {
 		return room_id;
 	}

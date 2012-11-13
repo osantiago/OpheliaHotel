@@ -21,6 +21,15 @@ public class User {
 	String last_name;
 	String position;
 	String privileges;
+	
+	User(int user_id, String first_name, String last_name, String position,
+			String privileges) {
+		this.user_id = user_id;
+		this.first_name = first_name;
+		this.last_name = last_name;
+		this.position = position;
+		this.privileges = privileges;
+	}
 
 	public int getUser_id() {
 		return user_id;

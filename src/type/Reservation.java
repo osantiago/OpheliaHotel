@@ -34,6 +34,23 @@ public class Reservation {
 	double payment_needed;
 	int created_by;
 	String type;
+	
+	Reservation(int id, Date created_date, Date start_date, Date end_date, int room_id,
+			int customer_id, String notes, int rate_id, double payment_needed,
+			int created_by, String type) {
+		this.id = id;
+		this.created_date = created_date;
+		this.start_date = start_date;
+		this.end_date = end_date;
+		this.room_id = room_id;
+		this.customer_id = customer_id;
+		this.notes = notes;
+		this.rate_id = rate_id;
+		this.payment_needed = payment_needed;
+		this.created_by = created_by;
+		this.type = type;
+	}
+	
 	public int getId() {
 		return id;
 	}

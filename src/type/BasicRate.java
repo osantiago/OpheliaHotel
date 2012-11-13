@@ -17,6 +17,12 @@ public class BasicRate {
 	double basic_rate;
 	Date date;
 	
+	BasicRate(int id, double basic_rate, Date date) {
+		this.id = id;
+		this.basic_rate = basic_rate;
+		this.date = date;
+	}
+	
 	
 	public int getId() {
 		return id;

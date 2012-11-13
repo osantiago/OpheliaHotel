@@ -21,6 +21,14 @@ public class Customer {
 	String address;
 	String notes;
 	
+	Customer(int id, String firstName, String lastName, String address, String notes) {
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.address = address;
+		this.notes = notes;
+	}
+	
 	public int getId() {
 		return id;
 	}

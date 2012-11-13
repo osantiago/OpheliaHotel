@@ -23,6 +23,15 @@ public class ReservationRate {
 	double actual_rate;
 	int basic_rate_id;
 	int room_id;
+	
+	ReservationRate(int id, Date date, double actual_rate, int basic_rate_id, 
+			int room_id) {
+		this.id = id;
+		this.date = date;
+		this.actual_rate = actual_rate;
+		this.room_id = room_id;
+	}
+	
 	public int getId() {
 		return id;
 	}
